@@ -21,16 +21,6 @@ $(function() {
 });
 
 
-//radio batton
-$(function() {
-    for (i = 0; i <= 3; i++) {
-        $('#slider').append('<input type="radio">');
-        $('input').addId('#radio');
-    }
-
-});
-
-
 //header scroll
 $(document).scroll(function() {
 

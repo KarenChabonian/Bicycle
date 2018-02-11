@@ -311,7 +311,7 @@
         transition: all .2s ease-in-out;
     }
     
-    .work__top-wrap:hover {
+    &:hover {
         background: #fff;
         opacity: 0.8;
     }
@@ -461,7 +461,7 @@
         transform: scale(1);
     }
     
-    .content__left img:hover {
+    &:hover {
         transition: all 1.5s ease;
         transform: scale(1.2);
         opacity: 2;
@@ -472,7 +472,7 @@
         transform: scale(1);
     }
     
-    .content__center img:hover {
+    &:hover {
         transition: all 1.5s ease;
         transform: scale(1.2);
         opacity: 1;

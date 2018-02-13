@@ -727,6 +727,13 @@ ul li {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+    .content__wrapper {
+        width: 700px;
+        height: 300px;
+    }
+}
+
 // left ===== //
 .content__left {
     overflow: hidden;
@@ -735,19 +742,30 @@ ul li {
     flex-flow: row wrap;
 }
 
-.left__img1 {
-    width: 50%;
-    height: auto;
-}
-
+.left__img1,
 .left__img2 {
     width: 50%;
     height: auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .left__img1,
+    .left__img2 {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
 .left__img3 {
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .left__img3 {
+        height: 150px;
+    }
 }
 
 // center ==== // 

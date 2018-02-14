@@ -14,7 +14,7 @@ body {
 
 @media screen and (max-width: 1024px) {
     body {
-        width: 768x;
+        width: 800px;
     }
 }
 
@@ -38,6 +38,12 @@ ul li {
     flex-grow: 1;
 }
 
+@media screen and (max-width: 1024px) {
+    .maincontent {
+        width: 800px;
+    }
+}
+
 
 /***
 *
@@ -57,7 +63,7 @@ ul li {
 
 @media screen and (max-width: 1024px) {
     .header {
-        width: 768px;
+        width: 800px;
     }
 }
 
@@ -85,7 +91,7 @@ ul li {
 @media screen and (max-width: 1024px) {
     .header-hidden {
         height: 70px;
-        width: 768px;
+        width: 800px;
     }
 }
 
@@ -190,7 +196,7 @@ ul li {
 
 @media screen and (max-width: 1024px) {
     .top-section {
-        width: 768px;
+        width: 800px;
     }
 }
 
@@ -320,7 +326,7 @@ ul li {
 
 @media screen and (max-width: 1024px) {
     .about-section {
-        width: 768px;
+        width: 800px;
     }
 }
 
@@ -379,6 +385,12 @@ ul li {
 .section-work {
     max-width: 100%;
     padding-top: 140px;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-work {
+        width: 800px;
+    }
 }
 
 .section__work-top {
@@ -646,10 +658,22 @@ ul li {
     max-width: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+    .social-slider {
+        width: 800px;
+    }
+}
+
 .social-slide {
     max-width: 900px;
     height: 280px;
     padding-top: 22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .social-slide {
+        width: 800px;
+    }
 }
 
 .slider-section__desc {
@@ -669,6 +693,12 @@ ul li {
 .slider__section-icon {
     width: 34px;
     height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .slider__section-icon {
+        margin: 0 auto;
+    }
 }
 
 .slider__section-title {
@@ -1097,6 +1127,12 @@ ul li {
 .footer__wraper {
     padding: 70px 0;
     display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__wraper {
+        width: 800px;
+    }
 }
 
 .social {

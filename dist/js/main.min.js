@@ -71,12 +71,11 @@ $(function(menu) {
     $('#open, #close').click(function(event) {
         event.preventDefault();
         $('#open').css('left', '-47px');
-        // $('#open').animate({ left: '-47px' }, 200);
         $('#menu').animate({ left: '0px' }, 600);
 
         $('#close').click(function() {
             $('#menu').animate({ left: '-250px' }, 300);
-            $('#open').animate({ left: '10px' }, 400);
+            $('#open').css('left', '10px');
         });
     });
 });

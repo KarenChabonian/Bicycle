@@ -143,7 +143,8 @@ ul li {
 .header__icon-link {
     position: fixed;
     background: #64c29e;
-    left: -47px;
+    // left: -47px;
+    display: none;
     opacity: 0.9;
     border-radius: 5px;
     transform: scaleY(0.9);
@@ -157,6 +158,7 @@ ul li {
 
 @media screen and (max-width: 400px) {
     .header__icon-link {
+        display: block;
         left: 10px;
         top: 5px;
         width: 37px;

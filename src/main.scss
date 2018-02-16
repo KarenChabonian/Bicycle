@@ -99,6 +99,12 @@ ul li {
     opacity: 0.8;
 }
 
+@media screen and (max-width: 400px) {
+    .header-scroll {
+        background: none;
+    }
+}
+
 .header-hidden {
     height: 96px;
     background: #000;
@@ -123,6 +129,7 @@ ul li {
 @media screen and (max-width: 400px) {
     .header-hidden {
         width: 375px;
+        background: none;
     }
 }
 
@@ -134,11 +141,9 @@ ul li {
 ***/
 
 .header__icon-link {
-    display: none;
     position: fixed;
-    top: 5px;
-    right: 10px;
     background: #64c29e;
+    left: -47px;
     opacity: 0.9;
     border-radius: 5px;
     transform: scaleY(0.9);
@@ -152,7 +157,6 @@ ul li {
 
 @media screen and (max-width: 400px) {
     .header__icon-link {
-        display: block;
         left: 10px;
         top: 5px;
         width: 37px;
@@ -181,10 +185,9 @@ ul li {
 }
 
 .header__menu {
-    display: none;
     position: fixed;
-    right: 0;
-    width: 300px;
+    left: -250px;
+    width: 250px;
     height: 100vh;
     background: #64c29e;
 }

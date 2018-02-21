@@ -32,7 +32,7 @@ $(function() {
         $('.nav a').click(function(event) {
             event.preventDefault();
             var getHref = $(this).attr('href');
-            var jump = $(getHref).offset().top - 80;
+            var jump = $(getHref).offset().top - 110;
 
             $('html, body').animate({ scrollTop: jump }, 1000);
 

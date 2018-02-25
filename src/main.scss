@@ -634,6 +634,12 @@
             }
         }
         
+        @media screen and (max-width: 320px) {
+            .work__top-img5 {
+                margin-left: 330px;
+            }
+        }
+        
         @media screen and (max-width: 1024px) {
             .work__top-img6 {
                 width: 28%;
@@ -650,6 +656,13 @@
             }
         }
         
+        @media screen and (max-width: 320px) {
+            .work__top-img6 {
+                width: 96px;
+                top: -432px;
+            }
+        }
+        
         @media screen and (max-width: 1024px) {
             .work__top-img7 {
                 height: 150px;
@@ -661,6 +674,13 @@
                 height: 50px;
                 width: 140px;
                 margin-top: 10px;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .work__top-img7 {
+                height: 60%;
+                width: 100%;
             }
         }
         
@@ -747,9 +767,7 @@
         
         @media screen and (max-width: 420px) {
             #first {
-                width: 300px;
                 height: 200px;
-                margin-left: 35px;
                 padding-bottom: 0;
             }
         }
@@ -763,9 +781,7 @@
         
         @media screen and (max-width: 420px) {
             #second {
-                width: 300px;
                 height: 200px;
-                margin-left: 35px;
                 padding: 0;
             }
         }
@@ -1384,8 +1400,14 @@
         @media screen and (max-width: 425px) {
             .email__form {
                 width: 100%;
-                left: 10%;
+                left: 3%;
                 position: relative;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .email__form {
+                left: 8%;
             }
         }
         
@@ -1399,6 +1421,12 @@
             text-align: left;
             padding: 6px 10px;
             position: relative;
+        }
+        
+        @media screen and (max-width: 320px) {
+            .email__input {
+                width: 250px;
+            }
         }
         
         .submit {
@@ -1428,6 +1456,12 @@
                 width: 88%;
                 margin-top: 10px;
                 border-radius: 30px;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .submit {
+                width: 86%;
             }
         }
         /***
@@ -1563,5 +1597,11 @@
                 width: 90%;
                 left: 15%;
                 position: relative;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .address__link-list {
+                left: 40px;
             }
         }
